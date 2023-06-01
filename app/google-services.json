@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "600975660871",
+    "project_id": "ucollab-5128d",
+    "storage_bucket": "ucollab-5128d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600975660871:android:a8cbb44ce8a7e86e7d5e62",
+        "android_client_info": {
+          "package_name": "com.example.ucollab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "600975660871-rnn2f1uqe6ktkpppd78rf0mkge0tcf4h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8xjOwoc9A04skQNRVZNmnCGW_HfXn2rw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "600975660871-rnn2f1uqe6ktkpppd78rf0mkge0tcf4h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

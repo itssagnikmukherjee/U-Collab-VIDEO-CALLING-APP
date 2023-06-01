@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backdash1"
+    android:fitsSystemWindows="true"
+    tools:context=".DashboardActivity"
+    tools:openDrawer="start">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="319dp"
+        android:layout_height="469dp"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="40dp"
+        app:cardElevation="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.339">
+
+        <LinearLayout
+            android:layout_width="282dp"
+            android:layout_height="435dp"
+            android:layout_margin="20dp"
+            android:orientation="vertical"><![CDATA[
+
+            android:layout_height="33dp" />
+
+            ]]>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="179dp"
+                android:layout_margin="10dp"
+                app:srcCompat="@drawable/opener" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Share your secret code to your friends to start the meeting" />
+
+            <EditText
+                android:id="@+id/codeBox"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/textbox"
+                android:drawableRight="@drawable/edit"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="UC Secret Code"
+                android:inputType="textPersonName"
+                android:padding="10dp" />
+
+            <Button
+                android:id="@+id/joinBtn"
+                android:layout_width="266dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_style"
+                android:drawableLeft="@drawable/link"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="Join"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/shareBtn"
+                android:layout_width="273dp"
+                android:layout_height="19dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_style_signup_createnewaccount"
+                android:drawableLeft="@drawable/share"
+                android:drawablePadding="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="SHARE"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

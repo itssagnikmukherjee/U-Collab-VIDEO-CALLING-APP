@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/logoutmenuoption"
+        app:showAsAction="always"
+        android:title=""
+        android:icon="@drawable/logoutmenu"
+        android:padding="20dp"
+        >
+    </item>
+    <item
+    app:showAsAction="always"
+    android:title=""
+    android:icon="@drawable/horizontalmenu"
+    android:padding="20dp"
+
+    >
+    <menu>
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/usermenu"
+            android:title="Your Profile"
+            app:showAsAction="never"
+            />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logoutmenu"
+            android:title="Logout"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/aboutmenu"
+            android:title="About UCollab"
+            app:showAsAction="never"/>
+
+        <item
+            android:icon="@drawable/helpmenu"
+            android:id="@+id/help"
+            android:title="Having Trouble ?"
+            app:showAsAction="never"/>
+
+
+    </menu>
+
+</item>
+
+</menu>
